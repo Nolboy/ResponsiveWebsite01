@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+@font-face {
+    font-family: D-DIN;
+    src: url(./fonts/D-DIN-Bold.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: D-DINsmall;
+    src: url(./fonts/D-DIN.ttf);
+}
+
+body {
+    font-family: D-DIN;
+}
+
+.bodyScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.inner-link-ctr-p {
+    width: 100%;
+    float: left;
+}
+
+.inner-link-p {
+    font-size: 20px;
+    font-family: D-DINsmall;
+}
+
+.inner-link-ctr-header {
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+}
+
+.inner-link-header {
+    font-size: 48px;
+}
+
+.inner-link-ctr-button {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
+.inner-link-button {
+    border: solid white 2px;
+    text-align: center;
+    background: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-family: D-DIN;
+}
+
+.inner-link-button a {
+    color: white;
+    font-family: D-DIN;
+}
+
+.content {
+    width: 100%;
+    float: left;
+}
+
+.section {
+    width: 100%;
+    float: left;
+}
+
+.inner-link-ctr1 {
+    position: absolute;
+}
+
+.imageCtr-1 {
+    background-image: url('./images/Star4_37_outsidebeach_IMG_4152_1_desktop_1_0ae909e40a.jpg');
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.inner-link-ctr1 {
+    width: 25%;
+    color: white;
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
+
+.imageCtr-2 {
+    background-image: url('./images/desktop_homepage_71a0b886e5.jpg');
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-link-ctr2 {
+    width: 25%;
+    color: white;
+    position: absolute;
+    top: 1580px;
+    left: 300px;
+}
+
+.imageCtr-3 {
+    background-image: url('./images/SWOT_Launch_Desktop_311b77d6b9.jpg');
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-link-ctr3 {
+    width: 40%;
+    color: white;
+    position: absolute;
+    top: 2600px;
+    left: 300px;
+}
+
+.imageCtr-4 {
+    background-image: url('./images/Homepage_Desktop_5ebdeb0c6c.webp');
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.inner-link-ctr4 {
+    width: 25%;
+    color: white;
+    position: absolute;
+    top: 3420px;
+    left: 300px;
+}
+
+.imageCtr-5 {
+    background-image: url('./images/S20_Chopstick_Stack_Desktop_0c016b49ec.webp');
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.inner-link-ctr5 {
+    width: 25%;
+    color: white;
+    position: absolute;
+    top: 4500px;
+    left: 300px;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    height: 105px;
+    background: black;
+}
+
+.center-footer {
+    width: 50%;
+    margin: auto;
+    margin-top: 45px;
+    height: 20px;
+    text-align: center;
+}
+
+.footer-link {
+    font-family: D-DIN;
+    font-size: 12px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.copyright-text {
+    font-family: D-DIN;
+    font-size: 12px;
+    color: #979797;
+}
+
+
+.header-ctr {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.header-ctrHide {
+    color: transparent;
+    transition: 0.5s;
+}
+
+.header-left {
+    width: 90%;
+    float: left;
+}
+
+.header-imgCtr {
+    margin-top: 30px;
+}
+
+.img-logo {
+    width: 200px;
+    height: 25px;
+}
+
+.header-center {
+    width: 65%;
+    margin: auto;
+    display: flex;
+}
+
+.headerLink-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.headerLink-ctr {
+    float: left;
+    color: white;
+    font-family: D-DIN;
+    font-size: 14px;
+    margin-top: 42px;
+    margin-left: 30px;
+}
+
+.headerLink-ctr {
+    text-align: center;
+}
+
+.header-right {
+    width: 10%;
+    float: left;
+    color: white;
+
+}
+
+.hamburger-ctr,
+.rightlink-ctr {
+    float: right;
+    margin-top: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: D-DIN;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: 4;
+}
+
+.hamburger-ctr {
+    margin-top: 44px;
+    margin-right: 50px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 15px;
+    height: 2px;
+    margin-top: 2px;
+    background: white;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.hamburger-ctr1 {
+    position: absolute;
+    right: 50px;
+    top: 44px;
+    z-index: 6;
+    display: none;
+}
+
+.bar11,
+.bar22,
+.bar33 {
+    width: 15px;
+    height: 2px;
+    margin-top: 2px;
+    background: white;
+    z-index: 6;
+}
+
+/* Toggle Bars */
+.bar1Toggle {
+    transform: rotate(40deg);
+    margin-bottom: -2px;
+    margin-top: 5px;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.bar2Toggle {
+    display: none;
+}
+
+.bar3Toggle {
+    transform: rotate(-40deg);
+    margin-top: -2px;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.rightlink-ctrHide {
+    color: transparent;
+    transition: 0.4s;
+}
+
+
+
+
+
+/* HAMBURGER NAV */
+.header-hamburger {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 101vh;
+    position: fixed;
+    background: black;
+    transition: 0.8s cubic-bezier(0.1, 0.1, 0, 1);
+
+}
+
+.header-hamburgerToggle {
+    position: fixed;
+    right: 0;
+    width: 350px;
+    height: 101vh;
+    z-index: 4;
+}
+
+
+
+
+.hamburger-link-ctr {
+    display: none;
+}
+
+.hamburger-link-ctrToggle {
+    display: block;
+    width: 72%;
+    margin: auto;
+    border-bottom: solid 1px #252525;
+    text-align: right;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    z-index: 4;
+}
+
+.hamburger-link-ctr a {
+    color: white;
+    font-family: D-DINsmall;
+    z-index: 4;
+}
+
+.hamburger-inner {
+    width: 100%;
+    float: left;
+    margin-top: 90px;
+}
+
+.headerLink1 {
+    transition: 1s;
+}
