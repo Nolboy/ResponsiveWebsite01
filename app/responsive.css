@@ -1,0 +1,146 @@
+@media screen and (min-width: 1535px) and (max-width: 1751px) {
+    .header-center {
+        width: 75%;
+    }
+
+    .headerLink-ctr {}
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1534px) {
+
+    .inner-link-ctr1,
+    .inner-link-ctr2,
+    .inner-link-ctr3,
+    .inner-link-ctr4,
+    .inner-link-ctr5 {
+        width: 40%;
+    }
+
+    .inner-link-ctr5 {
+        top: 4800px;
+    }
+
+    .inner-link-ctr4 {
+        top: 3520px;
+    }
+
+    .header-center {
+        width: 70%;
+    }
+
+    .headerLink-ctr {
+        margin-top: 43px;
+        margin-left: 12px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1399px) {
+
+    .inner-link-ctr1,
+    .inner-link-ctr2,
+    .inner-link-ctr3,
+    .inner-link-ctr4,
+    .inner-link-ctr5 {
+        width: 50%;
+        text-align: center;
+        left: 25%;
+    }
+
+    .inner-link-ctr5 {
+        top: 4800px;
+    }
+
+    .inner-link-ctr4 {
+        top: 3520px;
+    }
+
+    .header-center {
+        width: 97%;
+        margin-top: 4px;
+    }
+
+    .rightlink-ctr {
+        display: none;
+    }
+
+    .headerLink-ctr {
+        margin-left: 10px;
+        margin-top: 38px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 990px) {
+    .hamburger-hide {
+        opacity: 1;
+    }
+
+    .headerLink-wrapper {
+        display: none;
+    }
+
+    .rightlink-ctr {
+        display: none;
+    }
+
+    .header-left {
+        width: 95%;
+    }
+
+    .header-right {
+        width: 5%;
+    }
+
+    .header-center {
+        width: 100%;
+    }
+
+    .header-imgCtr {
+        margin: auto;
+        padding-left: 40px;
+        margin-top: 35px;
+    }
+
+    .inner-link-ctr1,
+    .inner-link-ctr2,
+    .inner-link-ctr3,
+    .inner-link-ctr4,
+    .inner-link-ctr5 {
+        width: 80%;
+        text-align: center;
+        left: 10%;
+    }
+
+    .inner-link-ctr1 {
+        top: 400px;
+    }
+
+    .inner-link-ctr2 {
+        top: 1200px;
+    }
+
+    .inner-link-button2 {
+        background: black;
+        color: white;
+    }
+
+    .inner-link-ctr3 {
+        top: 2100px;
+    }
+
+    .inner-link-ctr5 {
+        top: 4000px;
+    }
+
+    .inner-link-ctr4 {
+        top: 3000px;
+    }
+
+    .center-footer {
+        margin-top: 10px;
+    }
+
+    .footer-link {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
